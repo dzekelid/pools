@@ -35,7 +35,7 @@ apis:
   tags: Pools
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/pools/master/_listings/sendgrid/ips-pools-pool-name-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/pools/master/_listings/sendgrid/ips-pools-pool-name-ips-post.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html

@@ -43,6 +43,7 @@ paths:
           description: OK
       tags:
       - target pools
+      - aggregation
 definitions:
   AccessConfig:
     properties:

@@ -28,7 +28,7 @@ apis:
   tags: Pools
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/blockchain-info/pools-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/blockchain-info/blocks-pool-name-get.md
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/blockchain-info

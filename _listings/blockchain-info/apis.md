@@ -13,8 +13,8 @@ tags:
 - Marketplace
 - internet
 - Blockchains
-created: "2018-03-22"
-modified: "2018-03-22"
+created: "2018-03-23"
+modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/blockchain-info/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -28,7 +28,7 @@ apis:
   tags: Pools
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/blockchain-info/blocks-pool-name-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/blockchain-info/pools-get.md
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/blockchain-info

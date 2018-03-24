@@ -18,8 +18,8 @@ tags:
 - Email
 - Email
 - API LIfeycle
-created: "2018-03-22"
-modified: "2018-03-22"
+created: "2018-03-23"
+modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -35,7 +35,7 @@ apis:
   tags: Pools
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ips-pools-pool-name-ips-ip-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ips-pools-get.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html

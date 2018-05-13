@@ -1,11 +1,15 @@
 ---
 swagger: "2.0"
 info:
-  title: SendGrid
-  description: 'The SendGrid Web API V3 Documentation. This is the entirety of the
-    documented v3 endpoints. We have updated all the descriptions, parameters, requests,
-    and responses. Authentication Every endpoint requires Authentication in the form
-    of an Authorization Header: Authorization: Bearer API_KEY'
+  title: SendGrid Put Ips Pools Pool Name
+  description: |-
+    **This endpoint allows you to update the name of an IP pool.**
+
+    IP Pools allow you to group your dedicated SendGrid IP addresses together. For example, you could create separate pools for your transactional and marketing email. When sending marketing emails, specify that you want to use the marketing IP pool. This allows you to maintain separate reputations for your different email traffic.
+
+    IP pools can only be used with whitelabeled IP addresses.
+
+    If an IP pool is NOT specified for an email, it will use any IP available, including ones in pools.
   version: 1.0.0
 host: api.sendgrid.com
 basePath: /v3

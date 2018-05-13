@@ -36,11 +36,11 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ips-pools-pool-name-ips-ip-delete.md
-- name: SendGrid Add Ips Pools Pool Name Ips
+- name: SendGrid Delete Ips Pools Pool Name Ips Ip
   description: |-
-    **This endpoint allows you to add an IP address to an IP pool.**
+    **This endpoint allows you to remove an IP address from an IP pool.**
 
-    You can add the same IP address to multiple pools. It may take up to 60 seconds for your IP address to be added to a pool after your request is made.
+    The same IP address can be added to multiple IP pools.
 
     A single IP address or a range of IP addresses may be dedicated to an account in order to send email for multiple domains. The reputation of this IP is based on the aggregate performance of all the senders who use it.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
@@ -49,7 +49,7 @@ apis:
   tags: Pools
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ips-pools-pool-name-ips-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ips-pools-pool-name-ips-ip-delete.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html

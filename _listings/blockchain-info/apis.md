@@ -29,16 +29,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/blockchain-info/blocks-pool-name-get.md
-- name: Blockchain Info Pools
-  description: This method can be used to get the data behind Blockchain.info's pools
-    information.
+- name: Blockchain Info Blocks by Pool
+  description: Returns the blocks for one pool.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-blockchain-info.jpg
   humanURL: https://blockchain.info
   baseURL: https://blockchain.info//
   tags: Pools
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/blockchain-info/pools-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/blockchain-info/blocks-pool-name-get.md
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/blockchain-info

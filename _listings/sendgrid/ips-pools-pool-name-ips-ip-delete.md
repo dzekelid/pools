@@ -1,11 +1,13 @@
 ---
 swagger: "2.0"
 info:
-  title: SendGrid
-  description: 'The SendGrid Web API V3 Documentation. This is the entirety of the
-    documented v3 endpoints. We have updated all the descriptions, parameters, requests,
-    and responses. Authentication Every endpoint requires Authentication in the form
-    of an Authorization Header: Authorization: Bearer API_KEY'
+  title: SendGrid Delete Ips Pools Pool Name Ips Ip
+  description: |-
+    **This endpoint allows you to remove an IP address from an IP pool.**
+
+    The same IP address can be added to multiple IP pools.
+
+    A single IP address or a range of IP addresses may be dedicated to an account in order to send email for multiple domains. The reputation of this IP is based on the aggregate performance of all the senders who use it.
   version: 1.0.0
 host: api.sendgrid.com
 basePath: /v3

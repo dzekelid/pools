@@ -36,22 +36,20 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ips-pools-pool-name-ips-ip-delete.md
-- name: SendGrid Put Ips Pools Pool Name
+- name: SendGrid Add Ips Pools Pool Name Ips
   description: |-
-    **This endpoint allows you to update the name of an IP pool.**
+    **This endpoint allows you to add an IP address to an IP pool.**
 
-    IP Pools allow you to group your dedicated SendGrid IP addresses together. For example, you could create separate pools for your transactional and marketing email. When sending marketing emails, specify that you want to use the marketing IP pool. This allows you to maintain separate reputations for your different email traffic.
+    You can add the same IP address to multiple pools. It may take up to 60 seconds for your IP address to be added to a pool after your request is made.
 
-    IP pools can only be used with whitelabeled IP addresses.
-
-    If an IP pool is NOT specified for an email, it will use any IP available, including ones in pools.
+    A single IP address or a range of IP addresses may be dedicated to an account in order to send email for multiple domains. The reputation of this IP is based on the aggregate performance of all the senders who use it.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
   humanURL: https://sendgrid.com/
   baseURL: https://api.sendgrid.com//v3
   tags: Pools
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ips-pools-pool-name-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ips-pools-pool-name-ips-post.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html

@@ -36,9 +36,9 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ips-pools-pool-name-ips-ip-delete.md
-- name: SendGrid Delete Ips Pools Pool Name
+- name: SendGrid Get Ips Pools Pool Name
   description: |-
-    **This endpoint allows you to delete an IP pool.**
+    **This endpoint allows you to list all of the IP addresses that are in a specific IP pool.**
 
     IP Pools allow you to group your dedicated SendGrid IP addresses together. For example, you could create separate pools for your transactional and marketing email. When sending marketing emails, specify that you want to use the marketing IP pool. This allows you to maintain separate reputations for your different email traffic.
 
@@ -51,7 +51,9 @@ apis:
   tags: Pools
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ips-pools-pool-name-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ips-pools-pool-name-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ips-pools-pool-name-get-postman.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html

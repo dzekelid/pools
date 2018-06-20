@@ -1,16 +1,14 @@
 ---
 name: SendGrid
 x-slug: sendgrid
-description: SendGrid is a cloud-based email service that delivers email on behalf
-  of companies to increase deliverability and improve customer communications integration
-  with new or existing email systems is done via SMTP or through a REST API, providing
-  metrics on outgoing email, and handles unsubscribe links, abiding by anti-spam regulations.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
+description: Delivering your transactional and marketing emails through the worlds
+  largest cloud-based email delivery platform. Send with confidence.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "9582"
 tags: Pools
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/apis.md
 specificationVersion: "0.14"
 apis:
@@ -24,8 +22,8 @@ apis:
     IP pools can only be used with whitelabeled IP addresses.
 
     If an IP pool is NOT specified for an email, it will use any IP available, including ones in pools.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//ips/pools
   tags: Email,Ips, Pools
   properties:
@@ -45,8 +43,8 @@ apis:
     IP pools can only be used with whitelabeled IP addresses.
 
     If an IP pool is NOT specified for an email, it will use any IP available, including ones in pools.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//ips/pools
   tags: Email,Ips, Pools
   properties:
@@ -62,8 +60,8 @@ apis:
     IP pools can only be used with whitelabeled IP addresses.
 
     If an IP pool is NOT specified for an email, it will use any IP available, including ones in pools.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//ips/pools/{pool_name}
   tags: Email,Ips, Pools, Pool, Name
   properties:
@@ -79,8 +77,8 @@ apis:
     IP pools can only be used with whitelabeled IP addresses.
 
     If an IP pool is NOT specified for an email, it will use any IP available, including ones in pools.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//ips/pools/{pool_name}
   tags: Email,Ips, Pools, Pool, Name
   properties:
@@ -98,8 +96,8 @@ apis:
     IP pools can only be used with whitelabeled IP addresses.
 
     If an IP pool is NOT specified for an email, it will use any IP available, including ones in pools.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//ips/pools/{pool_name}
   tags: Email,Ips, Pools, Pool, Name
   properties:
@@ -113,8 +111,8 @@ apis:
     You can add the same IP address to multiple pools. It may take up to 60 seconds for your IP address to be added to a pool after your request is made.
 
     A single IP address or a range of IP addresses may be dedicated to an account in order to send email for multiple domains. The reputation of this IP is based on the aggregate performance of all the senders who use it.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//ips/pools/{pool_name}/ips
   tags: Email,Ips, Pools, Pool, Name, Ips
   properties:
@@ -128,8 +126,8 @@ apis:
     The same IP address can be added to multiple IP pools.
 
     A single IP address or a range of IP addresses may be dedicated to an account in order to send email for multiple domains. The reputation of this IP is based on the aggregate performance of all the senders who use it.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//ips/pools/{pool_name}/ips/{ip}
   tags: Email,Ips, Pools, Pool, Name, Ips, Ip
   properties:
@@ -141,15 +139,15 @@ apis:
     cost and complexity of maintaining custom email systems. SendGrid provides reliable
     delivery, scalability and real-time analytics along with flexible APIs that make
     custom integration a breeze.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3
   tags: Pools
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/openapi.md
 x-common:
-- type: x-net-library
+- type: x--net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
 - type: x-base
   url: https://api.sendgrid.com
@@ -161,10 +159,18 @@ x-common:
   url: https://sendgrid.com/contact
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/sendgrid
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/sendgrid
 - type: x-developer
   url: https://sendgrid.com/developers
 - type: x-documentation
   url: https://sendgrid.com/docs/index.html
+- type: x-email
+  url: privacy@sendgrid.com
+- type: x-email
+  url: legal@sendgrid.com
+- type: x-email
+  url: dpo@sendgrid.com
 - type: x-forum
   url: http://support.sendgrid.com/forums
 - type: x-github
@@ -177,7 +183,7 @@ x-common:
   url: https://sendgrid.com/docs/Code_Examples/java.html
 - type: x-labs
   url: http://labs.sendgrid.com/
-- type: x-nodejs-library
+- type: x-node-js-library
   url: https://sendgrid.com/docs/Code_Examples/nodejs.html
 - type: x-partners
   url: https://sendgrid.com/partners
@@ -201,6 +207,8 @@ x-common:
   url: https://sendgrid.com/tos
 - type: x-twitter
   url: https://twitter.com/SendGrid
+- type: x-website
+  url: http://sendgrid.com
 - type: x-website
   url: https://sendgrid.com/
 include: []

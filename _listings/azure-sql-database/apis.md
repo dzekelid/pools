@@ -6,10 +6,10 @@ description: Make building and maintaining applications easier and more producti
   reliability, and data protection, SQL Database is a cloud database built for developers.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-sql-01-stop-worrying.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Pools
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/apis.md
 specificationVersion: "0.14"
 apis:
@@ -22,7 +22,7 @@ apis:
   tags: Elastic Pools
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernameelasticpoolselasticpoolname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernameelasticpoolselasticpoolname-put-openapi.md
 - name: Azure SQL Database API Elastic Pools Delete
   x-api-slug: azure-sql-database-api
   description: Deletes the elastic pool.
@@ -32,9 +32,9 @@ apis:
   tags: Elastic Pools
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernameelasticpoolselasticpoolname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernameelasticpoolselasticpoolname-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernameelasticpoolselasticpoolname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernameelasticpoolselasticpoolname-delete-openapi.md
 - name: Azure SQL Database API Elastic Pools Get
   x-api-slug: azure-sql-database-api
   description: Gets an elastic pool.
@@ -44,9 +44,9 @@ apis:
   tags: Elastic Pools
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernameelasticpoolselasticpoolname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernameelasticpoolselasticpoolname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernameelasticpoolselasticpoolname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernameelasticpoolselasticpoolname-get-openapi.md
 - name: Azure SQL Database API Elastic Pools List By Server
   x-api-slug: azure-sql-database-api
   description: Returns a list of elastic pools in a server.
@@ -56,9 +56,9 @@ apis:
   tags: Elastic Pools Server
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernameelasticpools-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernameelasticpools-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernameelasticpools-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernameelasticpools-get-openapi.md
 - name: Azure SQL Database API Elastic Pools List Activity
   x-api-slug: azure-sql-database-api
   description: Returns elastic pool activities.
@@ -68,9 +68,9 @@ apis:
   tags: Elastic Pools Activity
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernameelasticpoolselasticpoolnameelasticpoolactivity-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernameelasticpoolselasticpoolnameelasticpoolactivity-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernameelasticpoolselasticpoolnameelasticpoolactivity-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernameelasticpoolselasticpoolnameelasticpoolactivity-get-openapi.md
 - name: Azure SQL Database API Elastic Pools List Database Activity
   x-api-slug: azure-sql-database-api
   description: Returns activity on databases inside of an elastic pool.
@@ -80,9 +80,9 @@ apis:
   tags: Elastic Pools Database Activity
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernameelasticpoolselasticpoolnameelasticpooldatabaseactivity-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernameelasticpoolselasticpoolnameelasticpooldatabaseactivity-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernameelasticpoolselasticpoolnameelasticpooldatabaseactivity-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernameelasticpoolselasticpoolnameelasticpooldatabaseactivity-get-openapi.md
 - name: Azure SQL Database API Elastic Pools Get Database
   x-api-slug: azure-sql-database-api
   description: Gets a database inside of an elastic pool.
@@ -92,9 +92,9 @@ apis:
   tags: Elastic Pools Database
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernameelasticpoolselasticpoolnamedatabasesdatabasename-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernameelasticpoolselasticpoolnamedatabasesdatabasename-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernameelasticpoolselasticpoolnamedatabasesdatabasename-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernameelasticpoolselasticpoolnamedatabasesdatabasename-get-openapi.md
 - name: Azure SQL Database API Elastic Pools List Databases
   x-api-slug: azure-sql-database-api
   description: Returns a list of databases in an elastic pool.
@@ -104,9 +104,9 @@ apis:
   tags: Elastic Pools Databases
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernameelasticpoolselasticpoolnamedatabases-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernameelasticpoolselasticpoolnamedatabases-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernameelasticpoolselasticpoolnamedatabases-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernameelasticpoolselasticpoolnamedatabases-get-openapi.md
 - name: Azure SQL Database API Recommended Elastic Pools Get
   x-api-slug: azure-sql-database-api
   description: Gets a recommented elastic pool.
@@ -116,9 +116,9 @@ apis:
   tags: Recommended Elastic Pools
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernamerecommendedelasticpoolsrecommendedelasticpoolname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamerecommendedelasticpoolsrecommendedelasticpoolname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernamerecommendedelasticpoolsrecommendedelasticpoolname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamerecommendedelasticpoolsrecommendedelasticpoolname-get-openapi.md
 - name: Azure SQL Database API Recommended Elastic Pools Get Databases
   x-api-slug: azure-sql-database-api
   description: Gets a database inside of a recommented elastic pool.
@@ -128,9 +128,9 @@ apis:
   tags: Recommended Elastic Pools Databases
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernamerecommendedelasticpoolsrecommendedelasticpoolnamedatabasesdatabasename-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamerecommendedelasticpoolsrecommendedelasticpoolnamedatabasesdatabasename-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernamerecommendedelasticpoolsrecommendedelasticpoolnamedatabasesdatabasename-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamerecommendedelasticpoolsrecommendedelasticpoolnamedatabasesdatabasename-get-openapi.md
 - name: Azure SQL Database API Recommended Elastic Pools List By Server
   x-api-slug: azure-sql-database-api
   description: Returns recommended elastic pools.
@@ -140,9 +140,9 @@ apis:
   tags: Recommended Elastic Pools Server
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernamerecommendedelasticpools-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamerecommendedelasticpools-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernamerecommendedelasticpools-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamerecommendedelasticpools-get-openapi.md
 - name: Azure SQL Database API Recommended Elastic Pools List Databases
   x-api-slug: azure-sql-database-api
   description: Returns a list of databases inside a recommented elastic pool.
@@ -152,9 +152,9 @@ apis:
   tags: Recommended Elastic Pools Databases
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernamerecommendedelasticpoolsrecommendedelasticpoolnamedatabases-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamerecommendedelasticpoolsrecommendedelasticpoolnamedatabases-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernamerecommendedelasticpoolsrecommendedelasticpoolnamedatabases-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamerecommendedelasticpoolsrecommendedelasticpoolnamedatabases-get-openapi.md
 - name: Azure SQL Database API Recommended Elastic Pools List Metrics
   x-api-slug: azure-sql-database-api
   description: Returns a recommented elastic pool metrics.
@@ -164,9 +164,9 @@ apis:
   tags: Recommended Elastic Pools Metrics
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernamerecommendedelasticpoolsrecommendedelasticpoolnamemetrics-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamerecommendedelasticpoolsrecommendedelasticpoolnamemetrics-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernamerecommendedelasticpoolsrecommendedelasticpoolnamemetrics-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/azure-sql-database/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamerecommendedelasticpoolsrecommendedelasticpoolnamemetrics-get-openapi.md
 - name: Azure SQL Database API
   x-api-slug: azure-sql-database-api
   description: Make building and maintaining applications easier and more productive.

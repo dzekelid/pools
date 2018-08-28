@@ -172,29 +172,6 @@ paths:
       tags:
       - Users
       - Pools
-  /?Action=ListUserPools:
-    get:
-      summary: List User Pools
-      description: Lists the user pools associated with an AWS account.
-      operationId: listUserPools
-      x-api-path-slug: actionlistuserpools-get
-      parameters:
-      - in: query
-        name: MaxResults
-        description: The maximum number of results you want the request to return
-          when listing the user            pools
-        type: string
-      - in: query
-        name: NextToken
-        description: An identifier that was returned from the previous call to this
-          operation, which can            be used to return the next set of items
-          in the list
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - user Pools
   /?Action=UpdateUserPool:
     get:
       summary: Update User Pool
@@ -266,6 +243,272 @@ paths:
       tags:
       - Users
       - Pools
+  /?Action=CreateUserPoolClient:
+    get:
+      summary: Create User Pool Client
+      description: Creates the user pool client.
+      operationId: createUserPoolClient
+      x-api-path-slug: actioncreateuserpoolclient-get
+      parameters:
+      - in: query
+        name: ClientName
+        description: The client name for the user pool client you would like to create
+        type: string
+      - in: query
+        name: ExplicitAuthFlows
+        description: The explicit authentication flows
+        type: string
+      - in: query
+        name: GenerateSecret
+        description: Boolean to specify whether you want to generate a secret for
+          the user pool client            being created
+        type: string
+      - in: query
+        name: ReadAttributes
+        description: The read attributes
+        type: string
+      - in: query
+        name: RefreshTokenValidity
+        description: The validity of the refresh token, in days
+        type: string
+      - in: query
+        name: UserPoolId
+        description: The user pool ID for the user pool where you want to create a
+          user pool            client
+        type: string
+      - in: query
+        name: WriteAttributes
+        description: The write attributes
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+      - Pool Clients
+  /?Action=DescribeUserPoolClient:
+    get:
+      summary: Describe User Pool Client
+      description: |-
+        Client method for returning the configuration information and metadata of the
+                    specified user pool client.
+      operationId: describeUserPoolClient
+      x-api-path-slug: actiondescribeuserpoolclient-get
+      parameters:
+      - in: query
+        name: ClientId
+        description: The ID of the client associated with the user pool
+        type: string
+      - in: query
+        name: UserPoolId
+        description: The user pool ID for the user pool you want to describe
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+      - Pool Clients
+  /?Action=UpdateUserPoolClient:
+    get:
+      summary: Update User Pool Client
+      description: |-
+        Allows the developer to update the specified user pool client and password
+                    policy.
+      operationId: updateUserPoolClient
+      x-api-path-slug: actionupdateuserpoolclient-get
+      parameters:
+      - in: query
+        name: ClientId
+        description: The ID of the client associated with the user pool
+        type: string
+      - in: query
+        name: ClientName
+        description: The client name from the update user pool client request
+        type: string
+      - in: query
+        name: ExplicitAuthFlows
+        description: Explicit authentication flows
+        type: string
+      - in: query
+        name: ReadAttributes
+        description: The read-only attributes of the user pool
+        type: string
+      - in: query
+        name: RefreshTokenValidity
+        description: The validity of the refresh token, in days
+        type: string
+      - in: query
+        name: UserPoolId
+        description: The user pool ID for the user pool where you want to update the
+          user pool            client
+        type: string
+      - in: query
+        name: WriteAttributes
+        description: The writeable attributes of the user pool
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+      - Pool Clients
+  /?Action=ListIdentityPools:
+    get:
+      summary: List Identity Pools
+      description: Lists all of the Cognito identity pools registered for your account.
+      operationId: listIdentityPools
+      x-api-path-slug: actionlistidentitypools-get
+      parameters:
+      - in: query
+        name: MaxResults
+        description: The maximum number of identities to return
+        type: string
+      - in: query
+        name: NextToken
+        description: A pagination token
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Identity Pool
+  /?Action=ListUserPools:
+    get:
+      summary: List User Pools
+      description: Lists the user pools associated with an AWS account.
+      operationId: listUserPools
+      x-api-path-slug: actionlistuserpools-get
+      parameters:
+      - in: query
+        name: MaxResults
+        description: The maximum number of results you want the request to return
+          when listing the user            pools
+        type: string
+      - in: query
+        name: NextToken
+        description: An identifier that was returned from the previous call to this
+          operation, which can            be used to return the next set of items
+          in the list
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - user Pools
+  /?Action=BulkPublish:
+    get:
+      summary: Bulk Publish
+      description: Initiates a bulk publish of all existing datasets for an Identity
+        Pool to the configured stream.
+      operationId: bulkPublish
+      x-api-path-slug: actionbulkpublish-get
+      parameters:
+      - in: query
+        name: IdentityPoolId
+        description: A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE)
+          created by Amazon Cognito
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Publish
+  /?Action=CreateIdentityPool:
+    get:
+      summary: Create Identity Pool
+      description: Creates a new identity pool.
+      operationId: createIdentityPool
+      x-api-path-slug: actioncreateidentitypool-get
+      parameters:
+      - in: query
+        name: AllowUnauthenticatedIdentities
+        description: TRUE if the identity pool supports unauthenticated logins
+        type: string
+      - in: query
+        name: CognitoIdentityProviders
+        description: An array of Amazon Cognito Identity user pools and their client
+          IDs
+        type: string
+      - in: query
+        name: DeveloperProviderName
+        description: The domain by which Cognito will refer to your users
+        type: string
+      - in: query
+        name: IdentityPoolName
+        description: A string that you provide
+        type: string
+      - in: query
+        name: OpenIdConnectProviderARNs
+        description: A list of OpendID Connect provider ARNs
+        type: string
+      - in: query
+        name: SamlProviderARNs
+        description: An array of Amazon Resource Names (ARNs) of the SAML provider
+          for your identity         pool
+        type: string
+      - in: query
+        name: SupportedLoginProviders
+        description: Optional key:value pairs mapping provider names to provider app
+          IDs
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Identity Pool
+  /?Action=DeleteIdentityPool:
+    get:
+      summary: Delete Identity Pool
+      description: Deletes a user pool.
+      operationId: deleteIdentityPool
+      x-api-path-slug: actiondeleteidentitypool-get
+      parameters:
+      - in: query
+        name: IdentityPoolId
+        description: An identity pool ID in the format REGION:GUID
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Identity Pool
+  /?Action=DescribeIdentityPool:
+    get:
+      summary: Describe Identity Pool
+      description: |-
+        Gets details about a particular identity pool, including the pool name, ID
+                 description, creation date, and current number of users.
+      operationId: describeIdentityPool
+      x-api-path-slug: actiondescribeidentitypool-get
+      parameters:
+      - in: query
+        name: IdentityPoolId
+        description: An identity pool ID in the format REGION:GUID
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Identity Pool
+  /?Action=DescribeIdentityPoolUsage:
+    get:
+      summary: Describe Identity Pool Usage
+      description: Gets usage details (for example, data storage) about a particular
+        identity pool.
+      operationId: describeIdentityPoolUsage
+      x-api-path-slug: actiondescribeidentitypoolusage-get
+      parameters:
+      - in: query
+        name: IdentityPoolId
+        description: A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE)       created
+          by Amazon Cognito
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Identity Pool Usage
   /?Action=GetIdentityPoolConfiguration:
     get:
       summary: Get Identity Pool Configuration

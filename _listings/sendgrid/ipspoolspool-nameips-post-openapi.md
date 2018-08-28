@@ -166,6 +166,33 @@ paths:
       - Pool
       - Name
       - Ips
+  /ips/pools/{pool_name}/ips/{ip}:
+    delete:
+      summary: Delete Ips Pools Pool Name Ips Ip
+      description: |-
+        **This endpoint allows you to remove an IP address from an IP pool.**
+
+        The same IP address can be added to multiple IP pools.
+
+        A single IP address or a range of IP addresses may be dedicated to an account in order to send email for multiple domains. The reputation of this IP is based on the aggregate performance of all the senders who use it.
+      operationId: ips.pools.pool_name.ips.ip.delete
+      x-api-path-slug: ipspoolspool-nameipsip-delete
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Email
+      - Ips
+      - Pools
+      - Pool
+      - Name
+      - Ips
+      - Ip
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

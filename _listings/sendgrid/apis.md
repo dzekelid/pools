@@ -7,13 +7,13 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgr
 x-kinRank: "9"
 x-alexaRank: "10000"
 tags: Pools
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/apis.md
 specificationVersion: "0.14"
 apis:
-- name: SendGrid Get Ips Pools
-  x-api-slug: sendgrid
+- name: SendGrid - Get Ips Pools
+  x-api-slug: ipspools-get
   description: |-
     **This endpoint allows you to retreive all of your IP pools.**
 
@@ -24,15 +24,16 @@ apis:
     If an IP pool is NOT specified for an email, it will use any IP available, including ones in pools.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//ips/pools
-  tags: Email,Ips, Pools
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ipspools-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ipspools-get-openapi.md
-- name: SendGrid Add Ips Pools
-  x-api-slug: sendgrid
+- name: SendGrid - Add Ips Pools
+  x-api-slug: ipspools-post
   description: |-
     **This endpoint allows you to create an IP pool.**
 
@@ -45,13 +46,14 @@ apis:
     If an IP pool is NOT specified for an email, it will use any IP available, including ones in pools.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//ips/pools
-  tags: Email,Ips, Pools
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ipspools-post-openapi.md
-- name: SendGrid Delete Ips Pools Pool Name
-  x-api-slug: sendgrid
+- name: SendGrid - Delete Ips Pools Pool Name
+  x-api-slug: ipspoolspool-name-delete
   description: |-
     **This endpoint allows you to delete an IP pool.**
 
@@ -62,13 +64,14 @@ apis:
     If an IP pool is NOT specified for an email, it will use any IP available, including ones in pools.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//ips/pools/{pool_name}
-  tags: Email,Ips, Pools, Pool, Name
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ipspoolspool-name-delete-openapi.md
-- name: SendGrid Get Ips Pools Pool Name
-  x-api-slug: sendgrid
+- name: SendGrid - Get Ips Pools Pool Name
+  x-api-slug: ipspoolspool-name-get
   description: |-
     **This endpoint allows you to list all of the IP addresses that are in a specific IP pool.**
 
@@ -79,15 +82,16 @@ apis:
     If an IP pool is NOT specified for an email, it will use any IP available, including ones in pools.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//ips/pools/{pool_name}
-  tags: Email,Ips, Pools, Pool, Name
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ipspoolspool-name-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ipspoolspool-name-get-openapi.md
-- name: SendGrid Put Ips Pools Pool Name
-  x-api-slug: sendgrid
+- name: SendGrid - Put Ips Pools Pool Name
+  x-api-slug: ipspoolspool-name-put
   description: |-
     **This endpoint allows you to update the name of an IP pool.**
 
@@ -98,13 +102,14 @@ apis:
     If an IP pool is NOT specified for an email, it will use any IP available, including ones in pools.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//ips/pools/{pool_name}
-  tags: Email,Ips, Pools, Pool, Name
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ipspoolspool-name-put-openapi.md
-- name: SendGrid Add Ips Pools Pool Name Ips
-  x-api-slug: sendgrid
+- name: SendGrid - Add Ips Pools Pool Name Ips
+  x-api-slug: ipspoolspool-nameips-post
   description: |-
     **This endpoint allows you to add an IP address to an IP pool.**
 
@@ -113,13 +118,14 @@ apis:
     A single IP address or a range of IP addresses may be dedicated to an account in order to send email for multiple domains. The reputation of this IP is based on the aggregate performance of all the senders who use it.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//ips/pools/{pool_name}/ips
-  tags: Email,Ips, Pools, Pool, Name, Ips
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ipspoolspool-nameips-post-openapi.md
-- name: SendGrid Delete Ips Pools Pool Name Ips Ip
-  x-api-slug: sendgrid
+- name: SendGrid - Delete Ips Pools Pool Name Ips Ip
+  x-api-slug: ipspoolspool-nameipsip-delete
   description: |-
     **This endpoint allows you to remove an IP address from an IP pool.**
 
@@ -128,27 +134,283 @@ apis:
     A single IP address or a range of IP addresses may be dedicated to an account in order to send email for multiple domains. The reputation of this IP is based on the aggregate performance of all the senders who use it.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//ips/pools/{pool_name}/ips/{ip}
-  tags: Email,Ips, Pools, Pool, Name, Ips, Ip
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ipspoolspool-nameipsip-delete-openapi.md
-- name: SendGrid
-  x-api-slug: sendgrid
-  description: SendGrids cloud-based email infrastructure relieves businesses of the
-    cost and complexity of maintaining custom email systems. SendGrid provides reliable
-    delivery, scalability and real-time analytics along with flexible APIs that make
-    custom integration a breeze.
+- name: SendGrid - Delete Ips Pools Pool Name
+  x-api-slug: ipspoolspool-name-delete
+  description: |-
+    **This endpoint allows you to delete an IP pool.**
+
+    IP Pools allow you to group your dedicated SendGrid IP addresses together. For example, you could create separate pools for your transactional and marketing email. When sending marketing emails, specify that you want to use the marketing IP pool. This allows you to maintain separate reputations for your different email traffic.
+
+    IP pools can only be used with whitelabeled IP addresses.
+
+    If an IP pool is NOT specified for an email, it will use any IP available, including ones in pools.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3
-  tags: Pools
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ipspoolspool-name-delete-openapi.md
+- name: SendGrid - Get Ips Pools Pool Name
+  x-api-slug: ipspoolspool-name-get
+  description: |-
+    **This endpoint allows you to list all of the IP addresses that are in a specific IP pool.**
+
+    IP Pools allow you to group your dedicated SendGrid IP addresses together. For example, you could create separate pools for your transactional and marketing email. When sending marketing emails, specify that you want to use the marketing IP pool. This allows you to maintain separate reputations for your different email traffic.
+
+    IP pools can only be used with whitelabeled IP addresses.
+
+    If an IP pool is NOT specified for an email, it will use any IP available, including ones in pools.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ipspoolspool-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ipspoolspool-name-get-openapi.md
+- name: SendGrid - Put Ips Pools Pool Name
+  x-api-slug: ipspoolspool-name-put
+  description: |-
+    **This endpoint allows you to update the name of an IP pool.**
+
+    IP Pools allow you to group your dedicated SendGrid IP addresses together. For example, you could create separate pools for your transactional and marketing email. When sending marketing emails, specify that you want to use the marketing IP pool. This allows you to maintain separate reputations for your different email traffic.
+
+    IP pools can only be used with whitelabeled IP addresses.
+
+    If an IP pool is NOT specified for an email, it will use any IP available, including ones in pools.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ipspoolspool-name-put-openapi.md
+- name: SendGrid - Add Ips Pools Pool Name Ips
+  x-api-slug: ipspoolspool-nameips-post
+  description: |-
+    **This endpoint allows you to add an IP address to an IP pool.**
+
+    You can add the same IP address to multiple pools. It may take up to 60 seconds for your IP address to be added to a pool after your request is made.
+
+    A single IP address or a range of IP addresses may be dedicated to an account in order to send email for multiple domains. The reputation of this IP is based on the aggregate performance of all the senders who use it.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ipspoolspool-nameips-post-openapi.md
+- name: SendGrid - Delete Ips Pools Pool Name Ips Ip
+  x-api-slug: ipspoolspool-nameipsip-delete
+  description: |-
+    **This endpoint allows you to remove an IP address from an IP pool.**
+
+    The same IP address can be added to multiple IP pools.
+
+    A single IP address or a range of IP addresses may be dedicated to an account in order to send email for multiple domains. The reputation of this IP is based on the aggregate performance of all the senders who use it.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ipspoolspool-nameipsip-delete-openapi.md
+- name: SendGrid - Delete Ips Pools Pool Name
+  x-api-slug: ipspoolspool-name-delete
+  description: |-
+    **This endpoint allows you to delete an IP pool.**
+
+    IP Pools allow you to group your dedicated SendGrid IP addresses together. For example, you could create separate pools for your transactional and marketing email. When sending marketing emails, specify that you want to use the marketing IP pool. This allows you to maintain separate reputations for your different email traffic.
+
+    IP pools can only be used with whitelabeled IP addresses.
+
+    If an IP pool is NOT specified for an email, it will use any IP available, including ones in pools.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ipspoolspool-name-delete-openapi.md
+- name: SendGrid - Get Ips Pools Pool Name
+  x-api-slug: ipspoolspool-name-get
+  description: |-
+    **This endpoint allows you to list all of the IP addresses that are in a specific IP pool.**
+
+    IP Pools allow you to group your dedicated SendGrid IP addresses together. For example, you could create separate pools for your transactional and marketing email. When sending marketing emails, specify that you want to use the marketing IP pool. This allows you to maintain separate reputations for your different email traffic.
+
+    IP pools can only be used with whitelabeled IP addresses.
+
+    If an IP pool is NOT specified for an email, it will use any IP available, including ones in pools.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ipspoolspool-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ipspoolspool-name-get-openapi.md
+- name: SendGrid - Put Ips Pools Pool Name
+  x-api-slug: ipspoolspool-name-put
+  description: |-
+    **This endpoint allows you to update the name of an IP pool.**
+
+    IP Pools allow you to group your dedicated SendGrid IP addresses together. For example, you could create separate pools for your transactional and marketing email. When sending marketing emails, specify that you want to use the marketing IP pool. This allows you to maintain separate reputations for your different email traffic.
+
+    IP pools can only be used with whitelabeled IP addresses.
+
+    If an IP pool is NOT specified for an email, it will use any IP available, including ones in pools.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ipspoolspool-name-put-openapi.md
+- name: SendGrid - Add Ips Pools Pool Name Ips
+  x-api-slug: ipspoolspool-nameips-post
+  description: |-
+    **This endpoint allows you to add an IP address to an IP pool.**
+
+    You can add the same IP address to multiple pools. It may take up to 60 seconds for your IP address to be added to a pool after your request is made.
+
+    A single IP address or a range of IP addresses may be dedicated to an account in order to send email for multiple domains. The reputation of this IP is based on the aggregate performance of all the senders who use it.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ipspoolspool-nameips-post-openapi.md
+- name: SendGrid - Delete Ips Pools Pool Name Ips Ip
+  x-api-slug: ipspoolspool-nameipsip-delete
+  description: |-
+    **This endpoint allows you to remove an IP address from an IP pool.**
+
+    The same IP address can be added to multiple IP pools.
+
+    A single IP address or a range of IP addresses may be dedicated to an account in order to send email for multiple domains. The reputation of this IP is based on the aggregate performance of all the senders who use it.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ipspoolspool-nameipsip-delete-openapi.md
+- name: SendGrid - Delete Ips Pools Pool Name Ips Ip
+  x-api-slug: ipspoolspool-nameipsip-delete
+  description: |-
+    **This endpoint allows you to remove an IP address from an IP pool.**
+
+    The same IP address can be added to multiple IP pools.
+
+    A single IP address or a range of IP addresses may be dedicated to an account in order to send email for multiple domains. The reputation of this IP is based on the aggregate performance of all the senders who use it.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ipspoolspool-nameipsip-delete-openapi.md
+- name: SendGrid - Add Ips Pools Pool Name Ips
+  x-api-slug: ipspoolspool-nameips-post
+  description: |-
+    **This endpoint allows you to add an IP address to an IP pool.**
+
+    You can add the same IP address to multiple pools. It may take up to 60 seconds for your IP address to be added to a pool after your request is made.
+
+    A single IP address or a range of IP addresses may be dedicated to an account in order to send email for multiple domains. The reputation of this IP is based on the aggregate performance of all the senders who use it.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ipspoolspool-nameips-post-openapi.md
+- name: SendGrid - Put Ips Pools Pool Name
+  x-api-slug: ipspoolspool-name-put
+  description: |-
+    **This endpoint allows you to update the name of an IP pool.**
+
+    IP Pools allow you to group your dedicated SendGrid IP addresses together. For example, you could create separate pools for your transactional and marketing email. When sending marketing emails, specify that you want to use the marketing IP pool. This allows you to maintain separate reputations for your different email traffic.
+
+    IP pools can only be used with whitelabeled IP addresses.
+
+    If an IP pool is NOT specified for an email, it will use any IP available, including ones in pools.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ipspoolspool-name-put-openapi.md
+- name: SendGrid - Get Ips Pools Pool Name
+  x-api-slug: ipspoolspool-name-get
+  description: |-
+    **This endpoint allows you to list all of the IP addresses that are in a specific IP pool.**
+
+    IP Pools allow you to group your dedicated SendGrid IP addresses together. For example, you could create separate pools for your transactional and marketing email. When sending marketing emails, specify that you want to use the marketing IP pool. This allows you to maintain separate reputations for your different email traffic.
+
+    IP pools can only be used with whitelabeled IP addresses.
+
+    If an IP pool is NOT specified for an email, it will use any IP available, including ones in pools.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ipspoolspool-name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ipspoolspool-name-get-openapi.md
+- name: SendGrid - Delete Ips Pools Pool Name
+  x-api-slug: ipspoolspool-name-delete
+  description: |-
+    **This endpoint allows you to delete an IP pool.**
+
+    IP Pools allow you to group your dedicated SendGrid IP addresses together. For example, you could create separate pools for your transactional and marketing email. When sending marketing emails, specify that you want to use the marketing IP pool. This allows you to maintain separate reputations for your different email traffic.
+
+    IP pools can only be used with whitelabeled IP addresses.
+
+    If an IP pool is NOT specified for an email, it will use any IP available, including ones in pools.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/pools/master/_listings/sendgrid/ipspoolspool-name-delete-openapi.md
 x-common:
 - type: x--net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
+- type: x-api-gallery
+  url: http://school.digger.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://sendgrid.stack.network
 - type: x-base
   url: https://api.sendgrid.com
 - type: x-blog
